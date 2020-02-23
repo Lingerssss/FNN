@@ -57,27 +57,27 @@ include CMakeFiles/Assignment1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Assignment1.dir/flags.make
 
-CMakeFiles/Assignment1.dir/main.cpp.o: CMakeFiles/Assignment1.dir/flags.make
-CMakeFiles/Assignment1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gongjiaxi/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment1.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/main.cpp.o -c /Users/gongjiaxi/CLionProjects/Assignment1/main.cpp
+CMakeFiles/Assignment1.dir/Lab1.cpp.o: CMakeFiles/Assignment1.dir/flags.make
+CMakeFiles/Assignment1.dir/Lab1.cpp.o: ../Lab1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gongjiaxi/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment1.dir/Lab1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment1.dir/Lab1.cpp.o -c /Users/gongjiaxi/CLionProjects/Assignment1/Lab1.cpp
 
-CMakeFiles/Assignment1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gongjiaxi/CLionProjects/Assignment1/main.cpp > CMakeFiles/Assignment1.dir/main.cpp.i
+CMakeFiles/Assignment1.dir/Lab1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment1.dir/Lab1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gongjiaxi/CLionProjects/Assignment1/Lab1.cpp > CMakeFiles/Assignment1.dir/Lab1.cpp.i
 
-CMakeFiles/Assignment1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gongjiaxi/CLionProjects/Assignment1/main.cpp -o CMakeFiles/Assignment1.dir/main.cpp.s
+CMakeFiles/Assignment1.dir/Lab1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment1.dir/Lab1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gongjiaxi/CLionProjects/Assignment1/Lab1.cpp -o CMakeFiles/Assignment1.dir/Lab1.cpp.s
 
 # Object files for target Assignment1
 Assignment1_OBJECTS = \
-"CMakeFiles/Assignment1.dir/main.cpp.o"
+"CMakeFiles/Assignment1.dir/Lab1.cpp.o"
 
 # External object files for target Assignment1
 Assignment1_EXTERNAL_OBJECTS =
 
-Assignment1: CMakeFiles/Assignment1.dir/main.cpp.o
+Assignment1: CMakeFiles/Assignment1.dir/Lab1.cpp.o
 Assignment1: CMakeFiles/Assignment1.dir/build.make
 Assignment1: CMakeFiles/Assignment1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gongjiaxi/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Assignment1"

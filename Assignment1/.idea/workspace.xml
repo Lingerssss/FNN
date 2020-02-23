@@ -11,7 +11,26 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="911c94b0-79d7-4852-89e0-db9d289cd25f" name="Default Changelist" comment="" />
+    <list default="true" id="911c94b0-79d7-4852-89e0-db9d289cd25f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s1/.idea/s1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +40,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="Assignment1" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XnFT9Wzmyq3XRHE8Sxj12DxAsE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,11 +82,25 @@
       <workItem from="1581953344498" duration="1934000" />
       <workItem from="1581968744313" duration="1001000" />
       <workItem from="1582010739903" duration="4156000" />
+      <workItem from="1582400163133" duration="1790000" />
+      <workItem from="1582437864579" duration="1925000" />
+      <workItem from="1582440261133" duration="10755000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581674062539">
@@ -70,25 +111,37 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="466" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.801@0.23.1440.801" timestamp="1581674287947" />
-    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1582048086948">
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1582464169787">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1582048086948" />
-    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1582048086946">
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1582464169787" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1582464169786">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1582048086946" />
-    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1582048086946">
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1582464169786" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1582464169785">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1582048086946" />
-    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1582048086947">
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1582464169785" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1582464169786">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1582048086947" />
-    <state x="399" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1582010739334">
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1582464169786" />
+    <state x="554" y="141" key="RollbackChangesDialog" timestamp="1582440300220">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="399" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1582010739334" />
+    <state x="554" y="141" key="RollbackChangesDialog/0.23.1440.801@0.23.1440.801" timestamp="1582440300220" />
+    <state x="399" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1582437864963">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="399" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1582437864963" />
+    <state x="388" y="61" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582440131318">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="388" y="61" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.801@0.23.1440.801" timestamp="1582440131318" />
+    <state x="397" y="69" width="790" height="708" key="find.popup" timestamp="1582459779939">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="397" y="69" width="790" height="708" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1582459779939" />
   </component>
 </project>
