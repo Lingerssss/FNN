@@ -1,10 +1,8 @@
 /************************************************************************
 *  mlp.cpp - Implements a multi-layer back-propagation neural network
 
-*  Ver1: Koren Ward - 15 March 2003
-*  Ver2: Koren Ward - 21 July  2003 - Dynamic memory added
-*  Ver3: Koren Ward - 20 March 2005 - Net paramaters in datafile added
-*  Ver4: Your Name -  ?? April 2005 - 3, 4 & 5 layer mlp & test fn added
+*  Ver1:JX Dove King - 25 Feb 2020
+
 
 *************************************************************************/
 #include<iostream>
