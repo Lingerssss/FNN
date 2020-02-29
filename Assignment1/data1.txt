@@ -5,7 +5,7 @@ NumOPs: 1
 NumTrnPats: 192
 NumTstPats: 192
 NumIts: 10000
-NumHN: 1
+NumHN: 2
 NumHN1: 5
 LrnRate: 0.6
 Mtm1: 1.2
