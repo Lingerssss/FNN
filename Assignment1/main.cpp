@@ -196,44 +196,13 @@ int main(){
     delete ad1; delete ad2;
 }
 
-/*void TestNet(float **x,float **d,int NumIPs,int NumOPs,int NumPats ) {
-    float *h1 = new float[NumHN1]; // O/Ps of hidden layer
-    float *y  = new float[NumOPs]; // O/P of Net
-    float *ad1= new float[NumHN1]; // HN1 back prop errors
-    float *ad2= new float[NumOPs]; // O/P back prop errors
-    float PatErr,MinErr,AveErr,MaxErr;  // Pattern errors
-    int p,i,j;     // for loops indexes
-    long ItCnt=0;  // Iteration counter
-    long NumErr=0; // Error counter (added for spiral problem)
+void TrainNet3(float **x,float **d,int NumIPs,int NumOPs,int NumPats){
+    TrainNet(IPTrnData,OPTrnData,NumIPs,NumOPs,NumTrnPats);
 
-    cout<<"TrainNet2: IP:"<<NumIPs<<" H1:"<<NumHN1<<" OP:"<<NumOPs<<endl;
 
-    // Allocate memory for weights
-    w1   = Aloc2DAry(NumIPs,NumHN1);// 1st layer wts
-    w11  = Aloc2DAry(NumIPs,NumHN1);
-    w111 = Aloc2DAry(NumIPs,NumHN1);
-    w2   = Aloc2DAry(NumHN1,NumOPs);// 2nd layer wts
-    w22  = Aloc2DAry(NumHN1,NumOPs);
-    w222 = Aloc2DAry(NumHN1,NumOPs);
-    for(p=0;p<NumPats;p++) { // for each pattern...
-        // Cal neural network output
-        for (i = 0; i < NumHN1; i++) { // Cal O/P of hidden layer 1
-            float in = 0;
-            for (j = 0; j < NumIPs; j++)
-                in += w1[j][i] * x[p][j];
-            h1[i] = (float) (1.0 / (1.0 + exp(float(-in))));// Sigmoid fn
-        }
-        for (i = 0; i < NumOPs; i++) { // Cal O/P of output layer
-            float in = 0;
-            for (j = 0; j < NumHN1; j++) {
-                in += w2[j][i] * h1[j];
-            }
-            y[i] = (float) (1.0 / (1.0 + exp(float(-in))));// Sigmoid fn
-        }
-        cout<<w1[j][i]<<endl;
-    }
-}*/
 
+
+}
 void TestNet(float **x,float **d,int NumIPs,int NumOPs,int NumPats ) {
     int p, i, j;
     float *h1 = new float[NumHN1]; // O/Ps of hidden layer

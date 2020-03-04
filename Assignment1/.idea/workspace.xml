@@ -12,10 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911c94b0-79d7-4852-89e0-db9d289cd25f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/Lab2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,11 @@
       <workItem from="1582691213986" duration="5810000" />
       <workItem from="1582888177208" duration="1938000" />
       <workItem from="1582891641181" duration="354000" />
-      <workItem from="1582980735015" duration="306000" />
+      <workItem from="1582980735015" duration="4782000" />
+      <workItem from="1582988481718" duration="1501000" />
+      <workItem from="1583144483685" duration="25000" />
+      <workItem from="1583213881145" duration="749000" />
+      <workItem from="1583282009239" duration="1370000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/Lingerssss/ANN&#10;&#10;# Conflicts:&#10;#&#9;README.md">
       <created>1582619218709</created>
@@ -92,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582619218709</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/Lingerssss/ANN&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <created>1582981078022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582981078022</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,10 +134,10 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="466" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.801@0.23.1440.801" timestamp="1581674287947" />
-    <state x="322" y="23" key="CommitChangelistDialog2" timestamp="1582619218199">
+    <state x="322" y="23" key="CommitChangelistDialog2" timestamp="1582981077462">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="322" y="23" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1582619218199" />
+    <state x="322" y="23" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1582981077462" />
     <state x="100" y="123" width="1240" height="601" key="DiffContextDialog" timestamp="1582619151251">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
@@ -176,26 +186,26 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="100" y="123" width="1240" height="601" key="ShowDiffWithBranchDialog/0.23.1440.801@0.23.1440.801" timestamp="1582619151252" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1582619283867">
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1582981110517">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1582619283867" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1582981110517" />
     <state x="134" y="103" width="1240" height="601" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1582619151252">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="134" y="103" width="1240" height="601" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.23.1440.801@0.23.1440.801" timestamp="1582619151252" />
-    <state x="399" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1582980735107">
+    <state x="399" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1583306518338">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="399" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1582980735107" />
+    <state x="399" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1583306518338" />
     <state x="388" y="61" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582440131318">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="388" y="61" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.801@0.23.1440.801" timestamp="1582440131318" />
-    <state x="524" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582981043739">
+    <state x="524" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583306533698">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="524" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.801@0.23.1440.801" timestamp="1582981043739" />
+    <state x="524" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.801@0.23.1440.801" timestamp="1583306533698" />
     <state x="397" y="69" width="790" height="708" key="find.popup" timestamp="1582459779939">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
