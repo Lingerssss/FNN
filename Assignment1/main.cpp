@@ -34,7 +34,8 @@ float ObjErr ;    // Objective error
 float **w1,**w11,**w111;// 1st layer wts
 float **w2,**w22,**w222;// 2nd layer wts
 
-void TrainNet(float **x,float **d,int NumIPs,int NumOPs,int NumPats);
+void TrainNet(float **x, float **d, int NumIPs, int NumOPs, int NumPats);
+void TrainNet3(float **x, float **d, int NumIPs, int NumOPs, int NumPats);
 void TestNet(float **x,float **d,int NumIPs,int NumOPs,int NumPats);
 float **Aloc2DAry(int m,int n);
 void Free2DAry(float **Ary2D,int n);
@@ -87,8 +88,12 @@ int main(){
             fin>>OPTstData[i][j];
     }
     fin.close();
-    TrainNet(IPTrnData,OPTrnData,NumIPs,NumOPs,NumTrnPats);
-    TestNet(IPTstData,OPTstData,NumIPs,NumOPs,NumTstPats);
+    float *A=new float [NumHN];
+    NumHN[0]= ;
+
+    TrainNet3(IPTrnData,OPTrnData,NumIPs,NumOPs,NumTrnPats);
+    //TrainNet(IPTrnData,OPTrnData,NumIPs,NumOPs,NumTrnPats);
+    //TestNet(IPTstData,OPTstData,NumIPs,NumOPs,NumTstPats);
     Free2DAry(IPTrnData,NumTrnPats);
     Free2DAry(OPTrnData,NumTrnPats);
     Free2DAry(IPTstData,NumTstPats);
@@ -194,15 +199,61 @@ int main(){
     // Free memory
     delete h1; delete y;
     delete ad1; delete ad2;
-}
-
-void TrainNet3(float **x,float **d,int NumIPs,int NumOPs,int NumPats){
-    TrainNet(IPTrnData,OPTrnData,NumIPs,NumOPs,NumTrnPats);
-
-
-
 
 }
+
+void TrainNet3(float **x, float **d, int NumIPs, int NumOPs, int NumPats){
+TrainNet(x, d, NumIPs, NumOPs, NumPats);
+}
+
+void County(float **x,int Numx,int Numy,int NumPats ,int CHN,int HN){
+    int i,j,p;
+    float *y  = new float[Numy];
+    float *H = new float[HN];
+    for(p=0;p<NumPats;p++) { // for each pattern...
+        // Cal neural network output
+        for (i = 0; i < Numy; i++) { // Cal O/P of hidden layer 1
+            float in = 0;
+            for (j = 0; j < Numx; j++)
+                in += w1[j][i] * x[p][j];
+            y[i] = (float) (1.0 / (1.0 + exp(float(-in))));// Sigmoid fn
+
+        }
+    }
+}
+void Weight(int Numx,int Numy) {
+    // Allocate memory for weights
+    w1 = Aloc2DAry(Numx, Numy);// 1st layer wts
+    w11 = Aloc2DAry(Numx, Numy);
+    w111 = Aloc2DAry(Numx, Numy);
+    // Init wts between -0.5 and +0.5
+    int i, j;
+    srand(time(0));
+    for (i = 0; i < Numx; i++)
+        for (j = 0; j < Numy; j++)
+            w1[i][j] = w11[i][j] = w111[i][j] = float(rand()) / RAND_MAX - 0.5;
+}
+
+void back(float **d,int Numx,int Numy,int NumPats,float *y){
+    int i,j,p;
+    for(p=0;p<NumPats;p++) {
+        float *ad = new float[Numy];
+        for (i = 0; i < Numy; i++) { // Modify layer 2 wts
+            ad[i] = (d[p][i] - y[i]) * y[i] * (1.0 - y[i]);
+            for (j = 0; j < Numx; j++) {
+                w1[j][i] += LrnRate * h1[j] * ad[i] +
+                            Mtm1 * (w1[j][i] - w11[j][i]) +
+                            Mtm2 * (w11[j][i] - w111[j][i]);
+                w111[j][i] = w11[j][i];
+                w11[j][i] = w1[j][i];
+            }
+        }
+    }
+}
+
+
+
+
 void TestNet(float **x,float **d,int NumIPs,int NumOPs,int NumPats ) {
     int p, i, j;
     float *h1 = new float[NumHN1]; // O/Ps of hidden layer
@@ -239,7 +290,6 @@ float **Aloc2DAry(int m,int n){
     }
     return Ary2D;
 }
-
 void Free2DAry(float **Ary2D,int n){
 //Frees memory in 2D array
     for(int i=0;i<n;i++)
