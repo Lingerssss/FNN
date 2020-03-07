@@ -11,10 +11,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="911c94b0-79d7-4852-89e0-db9d289cd25f" name="Default Changelist" comment="">
+    <list default="true" id="911c94b0-79d7-4852-89e0-db9d289cd25f" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Lingerssss/ANN&#10;&#10;# Conflicts:&#10;#&#9;README.md&#10;1.终于拆开了函数。&#10;2.结果已经可以了，但back过程还需改进。&#10;3.free加上去就崩。&#10;4.加入了int_string 和string_int，为以后变量名自增做准备。&#10;5.迟早转成类来实现任意自动n层隐藏层。">
+      <change afterPath="$PROJECT_DIR$/../Lab2.2/.idea/Lab2.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3.6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3.6/.idea/Test3.6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3.6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3.6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3.6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3.6/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test3.6/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment1.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +37,13 @@
     <favorites_list name="Assignment1" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Lingerssss &lt;136810939@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SIGN_OFF_COMMIT" value="true" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1XnFT9Wzmyq3XRHE8Sxj12DxAsE" />
@@ -47,6 +60,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -59,6 +73,10 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",KIND" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,7 +109,10 @@
       <workItem from="1583306518389" duration="6148000" />
       <workItem from="1583333395313" duration="277000" />
       <workItem from="1583344957006" duration="920000" />
-      <workItem from="1583346160077" duration="509000" />
+      <workItem from="1583346160077" duration="8616000" />
+      <workItem from="1583474645472" duration="10736000" />
+      <workItem from="1583504683062" duration="3596000" />
+      <workItem from="1583554583963" duration="7257000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/Lingerssss/ANN&#10;&#10;# Conflicts:&#10;#&#9;README.md">
       <created>1582619218709</created>
@@ -114,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583306578209</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/Lingerssss/ANN&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <created>1583389130330</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583389130330</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,57 +163,73 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/Lingerssss/ANN&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Lingerssss/ANN&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Lingerssss/ANN&#10;&#10;# Conflicts:&#10;#&#9;README.md&#10;1.终于拆开了函数。&#10;2.结果已经可以了，但back过程还需改进。&#10;3.free加上去就崩。&#10;4.加入了int_string 和string_int，为以后变量名自增做准备。&#10;5.迟早转成类来实现任意自动n层隐藏层。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Lingerssss/ANN&#10;&#10;# Conflicts:&#10;#&#9;README.md&#10;1.终于拆开了函数。&#10;2.结果已经可以了，但back过程还需改进。&#10;3.free加上去就崩。&#10;4.加入了int_string 和string_int，为以后变量名自增做准备。&#10;5.迟早转成类来实现任意自动n层隐藏层。" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582980954488">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="446" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.801@0.23.1440.801" timestamp="1582980954488" />
+    <state x="348" y="108" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1583487504409">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="348" y="108" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.801@0.23.1440.801" timestamp="1583487504409" />
     <state x="466" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581674287947">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="466" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.801@0.23.1440.801" timestamp="1581674287947" />
-    <state x="322" y="23" key="CommitChangelistDialog2" timestamp="1583306577516">
+    <state x="322" y="23" key="CommitChangelistDialog2" timestamp="1583571038669">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="322" y="23" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1583306577516" />
+    <state x="322" y="23" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1583571038669" />
+    <state width="397" height="466" key="DebuggerActiveHint" timestamp="1583483994480">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state width="397" height="466" key="DebuggerActiveHint/0.23.1440.801@0.23.1440.801" timestamp="1583483994480" />
     <state x="100" y="123" width="1240" height="601" key="DiffContextDialog" timestamp="1582619151251">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="100" y="123" width="1240" height="601" key="DiffContextDialog/0.23.1440.801@0.23.1440.801" timestamp="1582619151251" />
-    <state width="699" height="205" key="GridCell.Tab.0.bottom" timestamp="1583333315106">
+    <state width="699" height="244" key="GridCell.Tab.0.bottom" timestamp="1583571038837">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="699" height="205" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1583333315106" />
-    <state width="699" height="205" key="GridCell.Tab.0.center" timestamp="1583333315105">
+    <state width="334" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583411563279" />
+    <state width="699" height="244" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1583571038837" />
+    <state width="699" height="244" key="GridCell.Tab.0.center" timestamp="1583571038836">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="699" height="205" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1583333315105" />
-    <state width="699" height="205" key="GridCell.Tab.0.left" timestamp="1583333315105">
+    <state width="334" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583411563277" />
+    <state width="699" height="244" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1583571038836" />
+    <state width="699" height="244" key="GridCell.Tab.0.left" timestamp="1583571038835">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="699" height="205" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1583333315105" />
-    <state width="699" height="205" key="GridCell.Tab.0.right" timestamp="1583333315106">
+    <state width="334" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583411563276" />
+    <state width="699" height="244" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1583571038835" />
+    <state width="699" height="244" key="GridCell.Tab.0.right" timestamp="1583571038837">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="699" height="205" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1583333315106" />
-    <state width="1398" height="255" key="GridCell.Tab.1.bottom" timestamp="1582738441196">
+    <state width="334" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583411563278" />
+    <state width="699" height="244" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1583571038837" />
+    <state width="699" height="255" key="GridCell.Tab.1.bottom" timestamp="1583566148020">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1582738441196" />
-    <state width="1398" height="255" key="GridCell.Tab.1.center" timestamp="1582738441196">
+    <state width="699" height="255" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1583566148020" />
+    <state width="699" height="255" key="GridCell.Tab.1.center" timestamp="1583566148019">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1582738441196" />
-    <state width="1398" height="255" key="GridCell.Tab.1.left" timestamp="1582738441195">
+    <state width="699" height="255" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1583566148019" />
+    <state width="699" height="255" key="GridCell.Tab.1.left" timestamp="1583566148018">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1582738441195" />
-    <state width="1398" height="255" key="GridCell.Tab.1.right" timestamp="1582738441196">
+    <state width="699" height="255" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1583566148018" />
+    <state width="699" height="255" key="GridCell.Tab.1.right" timestamp="1583566148019">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state width="1398" height="255" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1582738441196" />
+    <state width="699" height="255" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1583566148019" />
     <state x="436" y="147" key="MultipleFileMergeDialog" timestamp="1582619124503">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
@@ -194,34 +238,46 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="554" y="141" key="RollbackChangesDialog/0.23.1440.801@0.23.1440.801" timestamp="1582980965753" />
+    <state x="229" y="62" key="SettingsEditor" timestamp="1583566600332">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="229" y="62" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1583566600332" />
     <state x="100" y="123" width="1240" height="601" key="ShowDiffWithBranchDialog" timestamp="1582619151252">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="100" y="123" width="1240" height="601" key="ShowDiffWithBranchDialog/0.23.1440.801@0.23.1440.801" timestamp="1582619151252" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1583306599359">
+    <state width="254" height="200" key="ShowFilterAction_Filter_Popup" timestamp="1583411476016">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="254" height="200" key="ShowFilterAction_Filter_Popup/0.0.1440.900@0.0.1440.900" timestamp="1583411476015" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1583571080141">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1583306599359" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.801@0.23.1440.801" timestamp="1583571080141" />
     <state x="134" y="103" width="1240" height="601" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1582619151252">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="134" y="103" width="1240" height="601" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.23.1440.801@0.23.1440.801" timestamp="1582619151252" />
-    <state x="399" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1583346160730">
+    <state x="399" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1583554584736">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="399" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1583346160730" />
+    <state x="399" y="258" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1583554584736" />
     <state x="388" y="61" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582440131318">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="388" y="61" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.801@0.23.1440.801" timestamp="1582440131318" />
-    <state x="524" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583306533698">
+    <state x="524" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583487683129">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="524" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.801@0.23.1440.801" timestamp="1583306533698" />
+    <state x="524" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.801@0.23.1440.801" timestamp="1583487683129" />
     <state x="397" y="69" width="790" height="708" key="find.popup" timestamp="1582459779939">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="397" y="69" width="790" height="708" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1582459779939" />
+    <state x="750" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583411475983">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="750" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583411475983" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
